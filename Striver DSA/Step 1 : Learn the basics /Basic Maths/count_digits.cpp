@@ -1,0 +1,1 @@
+// int count = (int) (log10(n) + 1);  where n is the number being passed
