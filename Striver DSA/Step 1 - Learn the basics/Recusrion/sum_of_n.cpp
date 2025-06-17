@@ -5,7 +5,6 @@ int printSum(int i, int num, int sum)
 {
     if(i>num)
     return sum;
-
     printSum(i+1, num, sum+i);
 }
 

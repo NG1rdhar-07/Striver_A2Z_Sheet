@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>  // for sort, next_permutation, min_element, max_element
-using namespace std;
+using namespace std; 
 
 int main() {
      vector<int> v = {3, 1, 2};

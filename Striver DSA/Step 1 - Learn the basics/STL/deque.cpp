@@ -5,6 +5,7 @@ using namespace std;
 int main() {
     deque<int> dq;
     dq.push_back(1);
+    
     dq.push_front(2);  // [2, 1]
     
     cout << "Front: " << dq.front() << endl; // 2
