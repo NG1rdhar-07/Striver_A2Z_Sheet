@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Works if passed in order !!...else use summation approach
+
 int missingNumber (int arr[], int n)
 {
     int counter = 1;
@@ -36,3 +38,5 @@ int main(){
 
     return 0;
 }
+
+// Nothing done today...insta pe time waste kiya aur reel banake so gya :)...kal padhunga pakka, aur bike bhi start kal se !!
