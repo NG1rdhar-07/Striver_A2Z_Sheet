@@ -16,6 +16,7 @@ void InsertionSort(int arr[], int n)
 }
 
 int main(){
+    
     cout << "Enter the number of elements of array :\n";
     int n;
     cin >> n;
