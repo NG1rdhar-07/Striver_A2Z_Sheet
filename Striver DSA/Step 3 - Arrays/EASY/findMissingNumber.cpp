@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// Works if passed in order !!...else use summation approach
+// Works if passed in order !!...else use summation approach :)
 
 int missingNumber (int arr[], int n)
 {
