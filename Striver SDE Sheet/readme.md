@@ -1,7 +1,5 @@
 # 🚀 My DSA Journey: Striver SDE Sheet Edition 💻
 
-![Striver SDE Sheet Banner](https://i.imgur.com/Z7sXjKz.png)
-
 Welcome to my coding journey as I take on the legendary [Striver SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/) — a collection of curated Data Structures and Algorithms questions to prepare for top tech interviews.
 
 ## 🧭 Goal
@@ -19,31 +17,14 @@ Complete all **180+ problems** on the sheet with deep understanding, optimized s
 
 ## 📊 GitHub Activity (Live Stats)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=your-github-username&theme=react&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=vision-friendly-dark)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical)
+![GitHub Streak](https://streak-stats.demolab.com?user=NG1rdhar-07&theme=react&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NG1rdhar-07&layout=compact&theme=vision-friendly-dark)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NG1rdhar-07&show_icons=true&theme=radical)
 
----
-
-## ✅ Completed Topics
-
-- ✅ Arrays
-- ✅ Linked List
-- ✅ Stack & Queue
-- ✅ Binary Search
-- ⏳ Trees
-- ⏳ Graphs
-- ⏳ Dynamic Programming
-- ⏳ Tries
-- ⏳ Bit Manipulation
-
----
 
 
 Each folder contains:
-- 🚀 Optimized Code (C++ / Python / Java)
-- 📄 Explanation Notes
-- 📦 Test Cases
+- 🚀 Optimized DSA Codes (C++)
 
 ---
 
