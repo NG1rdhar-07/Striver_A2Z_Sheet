@@ -21,7 +21,7 @@ void sorting(int arr[], int n)
         }
         else{
             swap(arr[mid], arr[high]);
-            high--;
+            high--; 
         }
     }
     
