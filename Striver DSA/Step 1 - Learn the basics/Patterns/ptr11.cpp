@@ -46,3 +46,43 @@ int main() {
     pattern11(lines);
     return 0;
 }
+
+
+
+/*  Another code...keep it simple :)
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    
+    for(int i =0; i<5; i++)
+    {
+      bool x = true;
+      
+      if(i%2 != 0)
+      x = false;
+      
+      for(int j=0; j< i+1; j++)
+      {
+        if(x)
+        {
+          cout << 1 << " ";
+          x = false;    
+        }
+        
+        else
+        {
+          cout << 0 << " ";
+          x = true;
+        }
+        
+      }
+      cout << "\n";
+    }
+    return 0;
+}
+
+
+*/
