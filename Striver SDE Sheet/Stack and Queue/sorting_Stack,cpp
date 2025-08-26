@@ -1,0 +1,111 @@
+// #include <bits/stdc++.h>
+// using namespace std;
+// void sortStack(stack<int>stc)
+// {
+//     stack<int>tmp;
+//     while(!stc.empty())
+//     {
+//         tmp.push(stc.top());
+//         stc.pop();
+//     }
+
+//     if(stc.empty() == true) // pehla element push krenge
+//     {
+//         stc.push(tmp.top());
+//         tmp.pop();
+//     }
+
+//     if(stc.top() < tmp.top()){
+//         stc.push(tmp.top());
+//     }
+
+//     else if(stc.top() > tmp.top())
+//     {
+
+//     }
+
+
+// }
+
+// int main() {
+    
+//     return 0;
+// }
+
+
+
+
+
+
+
+/* BY CHATGPT !! ...Recursion is tricky !!needs revision !!
+    #include <stack>
+#include <iostream>
+using namespace std;
+
+// Function to insert element in sorted order (descending)
+void insertInSortedOrder(stack<int>& s, int element) {
+    // Base case: stack is empty or element is greater than top
+    if (s.empty() || element > s.top()) {
+        s.push(element);
+        return;
+    }
+    
+    // Pop top element and recursively insert current element
+    int temp = s.top();
+    s.pop();
+    insertInSortedOrder(s, element);
+    
+    // Push back the popped element
+    s.push(temp);
+}
+
+// Function to sort stack recursively
+void sortStack(stack<int>& s) {
+    // Base case: empty stack
+    if (s.empty()) {
+        return;
+    }
+    
+    // Pop the top element
+    int temp = s.top();
+    s.pop();
+    
+    // Recursively sort remaining stack
+    sortStack(s);
+    
+    // Insert the popped element in sorted order
+    insertInSortedOrder(s, temp);
+}
+
+// Helper function to print stack
+void printStack(stack<int> s) {
+    while (!s.empty()) {
+        cout << s.top() << " ";
+        s.pop();
+    }
+    cout << endl;
+}
+
+int main() {
+    stack<int> s;
+    s.push(30);
+    s.push(-5);
+    s.push(18);
+    s.push(14);
+    s.push(-3);
+    
+    cout << "Original stack (top to bottom): ";
+    printStack(s);
+    
+    sortStack(s);
+    
+    cout << "Sorted stack (top to bottom): ";
+    printStack(s);
+    
+    return 0;
+}
+
+*/
+
+
